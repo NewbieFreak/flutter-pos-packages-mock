@@ -90,8 +90,8 @@ abstract class PrinterManufactory {
   final int widthBits;
 
   const PrinterManufactory({
-    required this.serviceUuid,
-    required this.writerChar,
+    this.serviceUuid = 0,
+    this.writerChar = 0,
     this.readerChar = 0,
     this.widthMM = 0,
     this.widthBits = 0,
@@ -134,5 +134,5 @@ class Printer extends ChangeNotifier {
 }
 
 class CatPrinter extends PrinterManufactory {
-  const CatPrinter() : super(serviceUuid: 0, writerChar: 0);
+  const CatPrinter({int feedPaperByteSize = 0});
 }
