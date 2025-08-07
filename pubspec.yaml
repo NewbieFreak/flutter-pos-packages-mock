@@ -15,7 +15,7 @@ dependencies:
   collection: ^1.18.0
   flutter_blue_plus:
     git:
-      url: https://github.com/NewbieFreak/flutter_blue_plus
+      url: https://github.com/chipweinberger/flutter_blue_plus
       path: packages/flutter_blue_plus
 
 dev_dependencies:
