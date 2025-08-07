@@ -16,7 +16,6 @@ dependencies:
   flutter_blue_plus:
     git:
       url: https://github.com/evan361425/flutter_blue_plus
-      ref: uint8
 
 dev_dependencies:
   flutter_test:
